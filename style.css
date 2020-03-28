@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f5f6fa;
+}
+nav{
+    top:0;
+    position:fixed;
+    width: 100%;
+    background-color: #10ac84;
+    height: 70px;
+}
+
+#header{
+    font-family: 'Lobster' ;
+    font-size: 34px;
+    color: #ecf0f1;
+    line-height: 10px;
+    text-align: center;
+    padding: 0px 20px;
+}
+.dd{
+    top: 0;
+    width:10%;
+    background-color:#ecf0f1 ;
+    height:1000px;
+}
+nav .dd ul{
+    float: left;
+}
+nav .dd ul li{
+    list-style-type: none;
+    padding:10px 0;
+
+
+}
+nav .dd ul li a{
+    font-family:'Lobster';
+    font-size: 22px;
+    color:black ;
+    transition-duration: 0.4s;
+    display:block;
+    padding: 0px 20px;
+    text-decoration: none;
+
+}
+nav .dd ul li a:hover{
+    background-color: #10ac84;
+
+}
+.postbox input[type="text"]{
+    margin: 100px 0px 10px 570px;
+    height: 80px;
+    width: 720px;
+    text-align: center;
+    border: 2px solid #10ac84;
+    border-radius: 45px;
+    outline: none;
+}
+.postbox input[type="submit"]{
+    margin:0px 575px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #10ac84;
+    border-radius: 25px;
+    outline: none;
+}
+.container{
+    width: 50%;
+    height: 600px;
+    background: white;
+    margin: 200px auto;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5)
+}
+
+.container .left{
+    float: left;
+    background-image: url(accomplishment-action-adult-adventure-372098.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 602px;
+    box-sizing: border-box;
+
+}
+.container .left h2{
+    text-align: center;
+    font-family: 'Lobster' ;
+    margin: 50% 70%;
+    color: #222f3e;
+    font-size: 32px;
+}
+/* i'll give this text an animation! */
+.text-primary{
+    animation-name: movelefT;
+    animation-duration: 3s;
+}
+@@keyframes movelefT {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translate(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+/* end */
+.container .right{
+    float: right;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+}
+.formbox a{
+    color: #10ac84;
+    font-size: 20px;
+    float: inherit;
+    display: block;
+    padding: 20px 10px;
+}
+.title{
+    text-align: center;
+    padding: 50px 20px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #10ac84;
+    font-size: 36px;
+}
+
+.formbox{
+    width: 100%;
+    height: 400px;
+    padding: 60px 0px;
+}
+
+.formbox input{
+    margin: 20px;
+    width: 90%;
+}
+.formbox input[type="text"],
+.formbox input[type="password"]
+{
+    border: 2px solid #10ac84;
+    outline: none;
+    padding: 10px;
+}
+.formbox input[type="text"]:Focus,
+.formbox input[type="password"]:focus
+{
+    border: 2px solid #2f3640;
+}
+.formbox input[type="submit"]
+{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    border: 2px solid  #10ac84;
+    margin:10px ;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+
+}
+.formbox input[type="submit"]:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#10ac84;
+}
+.formbox2{
+    width: 100%;
+    height: 400px;
+    padding: 10px 0px;
+}
+.formbox2 input{
+    margin: 10px;
+    width: 80%;
+}
+.formbox2 input[type="text"],
+.formbox2 input[type="password"]
+{
+    border: 2px solid #10ac84;
+    outline: none;
+    padding: 5px;
+}
+.formbox2 input[type="text"]:Focus,
+.formbox2 input[type="password"]:focus
+{
+    border: 2px solid #2f3640;
+}
+.formbox2 input[type="submit"]
+{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    border: 2px solid  #10ac84;
+    margin:10px ;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    color:black;
+    font-size: 18px;
+    background-color: white;
+}
+.formbox2 input[type="submit"]:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#10ac84;
+}
+.container2{
+    width: 50%;
+    height: 600px;
+    background: white;
+    margin: 200px auto;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5)
+}
+.container2 .left2{
+    float: left;
+    background-image: url(ian-stauffer-bH7kZ0yazB0-unsplash.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 602px;
+    box-sizing: border-box;
+}
+.container2 .left2 h2{
+    text-align: center;
+    font-family: 'Lobster' ;
+    margin: 30% 70%;
+    color: #f5f6fa;
+    font-size: 32px;
+}
+.container2 .right2{
+    float: right;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+    padding: 50px 20px;
+}
+.title h1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #10ac84;
+    font-size: 36px;
+}
+.container3{
+    width: 50%;
+    height: 600px;
+    background: white;
+    margin: 200px auto;
+    border: 2px solid #fff;
+    box-shadow: 0 10px 40px rgba(0,0,0,.5)
+}
+.container3 .left3{
+    float: left;
+    background-image: url(olena-sergienko-DmeZC9riGkk-unsplash.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 602px;
+    box-sizing: border-box;
+}
+.container3 .left3 h2{
+    text-align: center;
+    font-family: 'Lobster' ;
+    margin: 50% 70%;
+    color: #222f3e;
+    font-size: 32px;
+}
+.container3 .right3{
+    float: right;
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+}
+.formbox3 a{
+    color: #10ac84;
+    font-size: 20px;
+    float: inherit;
+    display: block;
+    padding: 20px 10px;
+}
+
+.formbox3{
+    width: 100%;
+    height: 400px;
+    padding: 60px 0px;
+}
+
+.formbox3 input{
+    margin: 10px;
+    width: 90%;
+}
+.formbox3 input[type="text"],
+.formbox3 input[type="password"],
+.formbox3 input[type="email"]
+{
+    border: 2px solid #10ac84;
+    outline: none;
+    padding: 10px;
+}
+.formbox3 input[type="text"]:Focus,
+.formbox3 input[type="password"]:focus
+{
+    border: 2px solid #2f3640;
+}
+.formbox3 input[type="submit"]
+{
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+    border: 2px solid #10ac84;
+    margin:10px ;
+    width: 200px;
+    height: 50px;
+    outline: none;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+}
+.formbox3 input[type="submit"]:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color:#10ac84;
+}
